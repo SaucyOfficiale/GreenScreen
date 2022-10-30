@@ -81,7 +81,7 @@ const App = () => {
 
   return (
     <>
-      <div className="container">
+      <div className="container" id="greenscreen">
         <div className="videoContainer">
           <div className="videoContent">
             <div className="video">
@@ -91,7 +91,8 @@ const App = () => {
                   display: "none",
                   width: "100%",
                   height: "100%",
-                  transform: "scaleX(-1)"
+                  top: "0",
+                  transform: "scaleX(1)"
                 }}
               />
 
@@ -107,25 +108,31 @@ const App = () => {
                 style={{
                   width: "100%",
                   height: "100%",
-                  transform: "scaleX(-1)",
+                  transform: "scaleX(1)",
                 }}
               ></canvas>
             </div>
           </div>
         </div>
 
-        <div className="backgroundContainer">
-          <div className="backgrounds">
-            <img id="vbackground" src={imageURL} alt="The Screan" className="background" />
-          </div>
-          <label htmlFor="contained-button-file" className="file-upload">
-            <input accept="image/*" id="contained-button-file" multiple type="file" onChange={imageHandler} />
-            Choose Background
-          </label>
-        </div>
+
+
+        <img id="vbackground" src={imageURL} alt="The Screan" className="background" />
+
+        <label htmlFor="contained-button-file" className="file-upload">
+          <input accept="image/*" id="contained-button-file" multiple type="file" onChange={imageHandler} />
+          Paradise 😍
+        </label>
       </div>
+
     </>
   )
 }
 
+
+
+
 export default App
+
+
+
