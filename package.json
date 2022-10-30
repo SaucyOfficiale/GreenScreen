@@ -1,6 +1,6 @@
 {
-  "name": "selfiesegmentation_video",
-  "homepage": "https://imkrrish.github.io/SelfieSegmentation_video",
+  "name": "GreenScreen",
+  "homepage": "https://saucyofficiale.github.io/GreenScreen",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
