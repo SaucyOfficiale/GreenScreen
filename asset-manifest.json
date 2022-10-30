@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/SelfieSegmentation_video/static/css/main.1de4ffad.css",
-    "main.js": "/SelfieSegmentation_video/static/js/main.3a0fe96a.js",
-    "static/js/787.29a7cb02.chunk.js": "/SelfieSegmentation_video/static/js/787.29a7cb02.chunk.js",
-    "static/media/vback.jpg": "/SelfieSegmentation_video/static/media/vback.6540dd9d9a9616cea918.jpg",
-    "index.html": "/SelfieSegmentation_video/index.html",
-    "main.1de4ffad.css.map": "/SelfieSegmentation_video/static/css/main.1de4ffad.css.map",
-    "main.3a0fe96a.js.map": "/SelfieSegmentation_video/static/js/main.3a0fe96a.js.map",
-    "787.29a7cb02.chunk.js.map": "/SelfieSegmentation_video/static/js/787.29a7cb02.chunk.js.map"
+    "main.css": "/GreenScreen/static/css/main.1de4ffad.css",
+    "main.js": "/GreenScreen/static/js/main.12babe2f.js",
+    "static/js/787.794104f9.chunk.js": "/GreenScreen/static/js/787.794104f9.chunk.js",
+    "static/media/vback.jpg": "/GreenScreen/static/media/vback.6540dd9d9a9616cea918.jpg",
+    "index.html": "/GreenScreen/index.html",
+    "main.1de4ffad.css.map": "/GreenScreen/static/css/main.1de4ffad.css.map",
+    "main.12babe2f.js.map": "/GreenScreen/static/js/main.12babe2f.js.map",
+    "787.794104f9.chunk.js.map": "/GreenScreen/static/js/787.794104f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1de4ffad.css",
-    "static/js/main.3a0fe96a.js"
+    "static/js/main.12babe2f.js"
   ]
 }
