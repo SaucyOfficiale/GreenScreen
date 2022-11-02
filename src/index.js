@@ -25,27 +25,27 @@ function changeListener() {
   console.log(value);
 
   if (value == "mini") {
-    document.querySelector(".videoContainer").style.height = "50px";
+    document.querySelector(".videoContainer").style.height = "100px";
     document.querySelector(".videoContainer").style.width = "100px";
   }
 
   if (value == "small") {
-    document.querySelector(".videoContainer").style.height = "100px";
+    document.querySelector(".videoContainer").style.height = "200px";
     document.querySelector(".videoContainer").style.width = "200px";
   }
 
   if (value == "medium") {
-    document.querySelector(".videoContainer").style.height = "150px";
+    document.querySelector(".videoContainer").style.height = "300px";
     document.querySelector(".videoContainer").style.width = "300px";
   }
 
   if (value == "large") {
-    document.querySelector(".videoContainer").style.height = "200px";
+    document.querySelector(".videoContainer").style.height = "400px";
     document.querySelector(".videoContainer").style.width = "400px";
   }
 
   if (value == "xl") {
-    document.querySelector(".videoContainer").style.height = "250px";
+    document.querySelector(".videoContainer").style.height = "500px";
     document.querySelector(".videoContainer").style.width = "500px";
   }
 }
