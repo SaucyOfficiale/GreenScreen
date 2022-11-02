@@ -115,14 +115,25 @@ const App = () => {
           </div>
         </div>
 
-
-
         <img id="vbackground" src={imageURL} alt="The Screan" className="background" />
 
-        <label htmlFor="contained-button-file" className="file-upload">
+        <label htmlFor="contained-button-file"  className="file-upload">
           <input accept="image/*" id="contained-button-file" multiple type="file" onChange={imageHandler} />
           Paradise 😍
         </label>
+
+        <select id="saucygreenscreenmenu">
+  <option id="saucygreenscreening" value="#" selected="true" disabled
+    >📦
+  </option>
+  <option id="saucygreenscreen" value="mini">Mini</option>
+  <option id="saucygreenscreen" value="small">Small</option>
+  <option id="saucygreenscreen" value="medium">Medium</option>
+  <option id="saucygreenscreen" value="large">Large</option>
+  <option id="saucygreenscreen" value="xl">XL</option>
+</select>
+
+   
       </div>
 
     </>
